@@ -10,7 +10,8 @@ Com Sci 269 Subject Line Generation Project
 `train.csv`: the training set
 `new_test.csv`: the test set
 
-#process:
+
+# process:
 run one of the training notebooks and generate a model--> load the model into correspoding notebooks start with "load"--> test the csv file generated using`testing_csv_uploaded.ipynb`
 
 
