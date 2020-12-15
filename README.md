@@ -12,9 +12,9 @@ Com Sci 269 Subject Line Generation Project
 
 `testing_csv_uploaded.ipynb` : the notebook to run ROUGE and METEOR on the result of `load_T5_model_and_generate_pred.ipynb` OR `load_BART_model_and_generate_pred.ipynb`
 
-`train.csv`: the training set
+`train.csv`: the training set, parsed from the training data used by Zhang et al( https://github.com/ryanzhumich/AESLC)
 
-`new_test.csv`: the test set
+`new_test.csv`: the test set, parsed from the testing data used by Zhang et al (https://github.com/ryanzhumich/AESLC) and removed all the human annotations inside. Only keep the original email subject lines.
 
 
 # process:
