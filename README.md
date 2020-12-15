@@ -21,10 +21,4 @@ Com Sci 269 Subject Line Generation Project
 run one of the training notebooks and generate a model--> load the model into correspoding notebooks start with "load"--> test the csv file generated using`testing_csv_uploaded.ipynb`
 
 # Reference
-@InProceedings{zhang2019slg,
-  author =      "Rui Zhang and Joel Tetreault",
-  title =       "This Email Could Save Your Life: Introducing the Task of Email Subject Line Generation",
-  booktitle =   "Proceedings of The 57th Annual Meeting of the Association for Computational Linguistics",
-  year =        "2019",
-  address =     "Florence, Italy"
-}
+Rui Zhang and Joel Tetreault. 2019.  This email could save your life: Introducing the task of email subject line generation.
