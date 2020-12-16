@@ -16,9 +16,12 @@ Com Sci 269 Subject Line Generation Project
 
 `new_test.csv`: the test set, parsed from the testing data used by Zhang et al (https://github.com/ryanzhumich/AESLC) and removed all the human annotations inside. Only keep the original email subject lines.
 
+`Lead_2_geneartion.ipynb`: The code for generating lead_2 benchmark result csv
+
+ `lead_2.csv`: The generated lead_2 csv file. As an example to be feeded into `testing_csv_uploaded.ipynb` to get ROUGE and METEOR score.
 
 # Process:
-run one of the training notebooks and generate a model--> load the model into correspoding notebooks start with "load"--> test the csv file generated using`testing_csv_uploaded.ipynb` remember to change the file name for models (for those notebooks start with "load") or genearted csv (for `testing_csv_uploaded.ipynb`)
+Run one of the training notebooks and generate a model--> Load the model into correspoding notebooks start with "load"--> Test the csv file generated using`testing_csv_uploaded.ipynb` remember to change the file name for models (for those notebooks start with "load") or genearted csv (for `testing_csv_uploaded.ipynb`)
 
 # Reference
 Rui Zhang and Joel Tetreault. 2019.  This email could save your life: Introducing the task of email subject line generation.
