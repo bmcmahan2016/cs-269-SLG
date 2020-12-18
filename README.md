@@ -20,8 +20,17 @@ Com Sci 269 Subject Line Generation Project
 
  `lead_2.csv`: The generated lead_2 csv file. As an example to be feeded into `testing_csv_uploaded.ipynb` to get ROUGE and METEOR score.
 
-# Process:
+# Whole process:
 Run one of the training notebooks and generate a model--> Load the model into correspoding notebooks start with "load"--> Test the csv file generated using`testing_csv_uploaded.ipynb` remember to change the file name for models (for those notebooks start with "load") or genearted csv (for `testing_csv_uploaded.ipynb`)
+
+
+# Two example trained models
+You can download two of our models trained by `BART_training.ipynb` and `t5_training.ipynb` to generate predictions using `load_T5_model_and_generate_pred.ipynb` or `load_BART_model_and_generate_pred.ipynb`
+
+`BART_epoch5.pth`: The BART model tuned with epoch=5. Link: https://drive.google.com/file/d/1ZdOtS9i-6jVL0GRmjvcUtYBIzuk3-oEJ/view?usp=sharing
+
+`t5_epoch5.pth`: The T5 model tuned with epoch=5. Link: https://drive.google.com/file/d/1mEFoUPGyS8678fhjvNhNCb2KYWs1v3KW/view?usp=sharing
+
 
 # Reference
 Rui Zhang and Joel Tetreault. 2019.  This email could save your life: Introducing the task of email subject line generation.
