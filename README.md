@@ -3,7 +3,7 @@ Com Sci 269 Subject Line Generation Project
 
 # Files:
 
-Note: all of our notebooks are originlated in running in Google Collab, we made modifications to make it can run in your local computer.
+Note: all of our notebooks are originlated in running in Google Collab, we made modifications to them for local run. If you found problems, feel free to use the codes here: https://drive.google.com/drive/folders/1j4LOAUlgVcJa8QpYkr3FTm9HgepoFNSN?usp=sharing
 
 `BART_training.ipynb`: the notebook that train the BART model using training data
 
